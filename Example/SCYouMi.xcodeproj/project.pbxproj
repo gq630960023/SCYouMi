@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C52774855C91184BE6E044D7 /* Pods_SCYouMi_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0F5C3D05113ED2A99297FC /* Pods_SCYouMi_Example.framework */; };
-		DF20D774B9F3BDAE7918FFB9 /* Pods_SCYouMi_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58774013462DEAED461FC5B /* Pods_SCYouMi_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +57,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		73452F857868BB8FCEE05937 /* Pods-SCYouMi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCYouMi_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCYouMi_Example/Pods-SCYouMi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8791E8438C94C3FA109650AF /* Pods-SCYouMi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCYouMi_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCYouMi_Tests/Pods-SCYouMi_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9531047B65C945D185C0A342 /* Pods-SCYouMi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCYouMi_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCYouMi_Example/Pods-SCYouMi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C0F5C3D05113ED2A99297FC /* Pods_SCYouMi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCYouMi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58774013462DEAED461FC5B /* Pods_SCYouMi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCYouMi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2691D4CBAE1A629C425CD2E /* Pods-SCYouMi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCYouMi_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCYouMi_Tests/Pods-SCYouMi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DE163E6F9FB82B905E9FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E476DA41C0E0275395477483 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +83,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DF20D774B9F3BDAE7918FFB9 /* Pods_SCYouMi_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +183,6 @@
 			children = (
 				73452F857868BB8FCEE05937 /* Pods-SCYouMi_Example.debug.xcconfig */,
 				9531047B65C945D185C0A342 /* Pods-SCYouMi_Example.release.xcconfig */,
-				C2691D4CBAE1A629C425CD2E /* Pods-SCYouMi_Tests.debug.xcconfig */,
-				8791E8438C94C3FA109650AF /* Pods-SCYouMi_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -541,7 +535,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2691D4CBAE1A629C425CD2E /* Pods-SCYouMi_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +558,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8791E8438C94C3FA109650AF /* Pods-SCYouMi_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

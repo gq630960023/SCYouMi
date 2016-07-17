@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "SCYouMi"
 ```
 
-## Author
-
-SOOC郭琦, guoqi@newfuture.online
-
 ## License
 
 SCYouMi is available under the MIT license. See the LICENSE file for more info.

@@ -3,20 +3,35 @@
   "version": "0.1.0",
   "summary": "A short description of SCYouMi.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SCYouMi",
+  "homepage": "https://github.com/gq630960023/SCYouMi",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "SOOC郭琦": "guoqi@newfuture.online"
+    "虾丸": "donttallyou@qq.online"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SCYouMi.git",
+    "git": "https://github.com/gq630960023/SCYouMi.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SCYouMi/Classes/**/*"
+  "source_files": "SCYouMi/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "storekit",
+    "security",
+    "cfnetwork",
+    "systemconfiguration",
+    "ImageIO",
+    "CoreMotion",
+    "Adsupport",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3"
+  ]
 }

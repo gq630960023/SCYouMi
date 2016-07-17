@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SCYouMi'
+  s.homepage         = 'https://github.com/gq630960023/SCYouMi'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SOOC郭琦' => 'guoqi@newfuture.online' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SCYouMi.git', :tag => s.version.to_s }
+  s.author           = { '虾丸' => 'donttallyou@qq.online' }
+  s.source           = { :git => 'https://github.com/gq630960023/SCYouMi.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,6 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'storekit', 'security', 'cfnetwork', 'systemconfiguration', 'ImageIO', 'CoreMotion', 'Adsupport', 'CoreTelephony'
-  s.libraries = 'libz', 'libsqlite3'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.libraries = 'z', 'sqlite3'
 end

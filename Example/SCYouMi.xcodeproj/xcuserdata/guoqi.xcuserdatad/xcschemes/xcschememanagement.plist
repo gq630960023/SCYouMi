@@ -2,27 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>Pods-SCYouMi_Example.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SCYouMi.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3E096DC6F55FB9835D220831FE3D882E</key>
+		<key>6003F589195388D20070C39A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1AECC7FF0BF76FABBBE52868DDBE29C</key>
+		<key>6003F5AD195388D20070C39A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
