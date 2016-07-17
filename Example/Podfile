@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SCYouMi_Example' do
+  pod 'SCYouMi', :path => '../'
+
+  target 'SCYouMi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - SCYouMi (0.1.0)
+
+DEPENDENCIES:
+  - SCYouMi (from `../`)
+
+EXTERNAL SOURCES:
+  SCYouMi:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SCYouMi: 423c2fbeaaca9bd922dd3e419258b2af08957abe
+
+PODFILE CHECKSUM: 5a64665a823d9649fa7ca2103f4a973711b9219f
+
+COCOAPODS: 1.0.1
