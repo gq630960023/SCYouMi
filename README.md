@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SCYouMi.svg?style=flat)](http://cocoapods.org/pods/SCYouMi)
 [![Platform](https://img.shields.io/cocoapods/p/SCYouMi.svg?style=flat)](http://cocoapods.org/pods/SCYouMi)
 
+## Info
+此项目为使用[有米](https://www.youmi.net/)所创建的pod库.
+个人使用, 不进行任何商业性推广及盈利.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
